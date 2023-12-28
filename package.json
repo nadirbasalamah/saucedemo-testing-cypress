@@ -1,0 +1,14 @@
+{
+  "name": "saucedemo-testing-cypress",
+  "version": "1.0.0",
+  "description": "Web testing example using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nadir Basalamah",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2"
+  }
+}
