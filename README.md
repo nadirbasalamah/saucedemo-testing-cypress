@@ -4,9 +4,16 @@ Web testing example using Cypress with BDD support.
 
 ## Notes
 
-1. The web application that is used for testing is [saucedemo.com](https://saucedemo.com/).
+1. There are two branches in this repository:
 
-2. This is the list of features that are already tested.
+- `main`: complete version with BDD support.
+- `simple`: simple version without BDD support.
+
+Each branch has specific `How to Use` guide. Please read that guide based on the branch that chosen.
+
+2. The web application that is used for testing is [saucedemo.com](https://saucedemo.com/).
+
+3. This is the list of features that are already tested.
 
 | **Feature Name** | **Test File** |
 | ---------------- | ------------- |
@@ -14,7 +21,7 @@ Web testing example using Cypress with BDD support.
 | Logout           | `logout.js`   |
 | Cart             | `cart.js`     |
 
-3. The Gherkin syntax declarations for each feature are available in `features` directory.
+4. The Gherkin syntax declarations for each feature are available in `features` directory.
 
 ## How to Use
 
