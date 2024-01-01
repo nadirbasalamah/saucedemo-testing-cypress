@@ -1,6 +1,6 @@
 # saucedemo-testing-cypress
 
-Web testing example using Cypress.
+Web testing example using Cypress with BDD support.
 
 ## Notes
 
@@ -8,11 +8,13 @@ Web testing example using Cypress.
 
 2. This is the list of features that are already tested.
 
-| **Feature Name** | **Spec File**  |
-| ---------------- | -------------- |
-| Login            | `login.cy.js`  |
-| Logout           | `logout.cy.js` |
-| Cart             | `cart.cy.js`   |
+| **Feature Name** | **Test File** |
+| ---------------- | ------------- |
+| Login            | `login.js`    |
+| Logout           | `logout.js`   |
+| Cart             | `cart.js`     |
+
+3. The Gherkin syntax declarations for each feature are available in `features` directory.
 
 ## How to Use
 
@@ -27,5 +29,5 @@ npm install
 3. Run the tests.
 
 ```sh
-npx cypress run --spec "cypress/e2e/*.cy.js"
+npx cypress run
 ```
